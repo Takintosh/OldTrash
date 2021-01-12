@@ -1,0 +1,27 @@
+@font-face {
+    font-family: doom;
+    src: url('font/doom.ttf');
+}
+#canvas{
+    display: block;
+    margin:0 auto;
+}
+body{
+    background-color: black;
+    background-image:url(img/wallpaper.jpg);
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+}
+.footer{
+    position:absolute;
+    width: 99%;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0px;
+    color: white;
+    font-family: doom;
+}
